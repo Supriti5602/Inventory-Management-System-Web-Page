@@ -1,0 +1,161 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+body#loginbody{
+    background: url('../images/warehouse.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body#indexbody{
+    background: url('../images/index.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+div.loginHeader{
+    text-align: center;
+}
+div.loginHeader {
+    margin-bottom: 100px;
+}
+div.loginHeader h1
+{
+    text-shadow: 1px 2px 2px black;
+    font-size: 60px;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    padding: 30px;
+    margin: 20px;
+}
+div.loginHeader h1 i{
+    font-size:60px;
+}
+div.loginHeader p
+{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: overline;
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    margin: 0px;
+    display: inline-block;
+}
+div.loginHeader p:after{
+    content:'';
+    display: block;
+    height: 5px;
+    background: black;
+    margin: 0 auto;
+}
+
+div.loginBody form{
+    margin: 0 auto;
+    width: 500px;
+    background: rgba(92, 91, 91, 0.15);
+    padding: 40px;
+    border: 7px solid rgba(10, 10, 10, 0.696);
+    border-radius:40px ;
+}
+div.loginInput{
+    margin-top: 20px;
+}
+div.loginInput label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(8, 1, 1);
+}
+div.loginInput input{
+    height: 25px;
+    width: 400px; 
+    border:2px  solid rgb(248, 247, 247);
+    font-size: 18px;
+    font-family:  'Times New Roman';
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+div.loginbutton{
+    margin-top: 20px;
+}
+div.loginbutton button{
+    font-size: 25px;
+    padding: 10px 20px;
+    font-style: normal;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    background:rgba(73, 72, 73, 0.2);
+    border-radius: 10px;
+    border:5px solid rgba(251, 246, 249, 0.941);
+}
+div.loginbutton :hover{
+    background-color: rgb(253, 204, 145);
+}
+
+div.header {
+    width: 100%;
+    height: 20px;
+    background: rgb(102, 102, 102);
+
+}
+div.Banner {
+    background: url('../images/ad_hmpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /* padding-top:  100px ;
+    padding-bottom: 100px; */
+}
+div.ad_hmpg_container{
+    width: 100%;
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+div.bannerheader h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:'Times New Roman';
+    color: rgb(0, 0, 0);
+}
+
+p.Tagline{
+    font-size: 40px;
+    font-style: italic bold;
+    color: aliceblue;
+
+}
+
+div.Bannericon{
+    margin-top: 50px;
+}
+div.Bannericon a{
+    font-size:25px ;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background:rgba(245, 131, 194, 0.845);
+    color:rgb(255, 255, 255);
+    border-radius:50% ;
+    width:50px;
+    weight:50px;
+    display: inline-block;
+}
+
+div.feature{
+    display: flex;
+    flex-direction: row;
+}
+div.hmpg_feature{
+    padding: 10px 20px;
+}
+div.hmpg_feature span.ficon{
+    height: 75px;
+    width:80px;
+    display:inline-block;
+    font-size: 40px;
+    background: rgba(245, 131, 194, 0.945);
+    color: #fff;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
